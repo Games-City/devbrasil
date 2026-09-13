@@ -1,0 +1,198 @@
+{
+  "norte": [
+    {
+      "id": 1,
+      "tema": "Debugar Código (HTML)",
+      "tipo": "codigo",
+      "pergunta": "Encontre o erro no código HTML abaixo. O link para o site de turismo não está funcionando corretamente. Qual tag ou atributo está faltando ou incorreto?\n<a href='turismo-norte.html'>Visitar o Norte</a>",
+      "respostaEsperada": "href",
+      "dica": "Verifique se a propriedade de link está escrita corretamente."
+    },
+    {
+      "id": 2,
+      "tema": "Debugar Código (Operadores JS)",
+      "tipo": "codigo",
+      "pergunta": "O operador de igualdade estrita em JavaScript compara o valor e o tipo. Como escrever o operador correto para verificar se a variável 'açaí' é estritamente igual a 10?",
+      "respostaEsperada": "===",
+      "dica": "Use três sinais de igual para comparação estrita."
+    },
+    {
+      "id": 3,
+      "tema": "Curiosidades Tecnológicas",
+      "pergunta": "Qual projeto de supercomputação brasileiro está instalado no INPE para monitoramento ambiental?",
+      "opcoes": ["Tupiniquim", "AmazonGrid", "Cresesb", "Supercomputadores focados em Clima e Amazônia"],
+      "resposta": 3
+    },
+    {
+      "id": 4,
+      "tema": "Criações ou Efeitos",
+      "pergunta": "Qual tecnologia de bioarquitetura utiliza a castanha-do-pará e fibras locais na inovação verde?",
+      "opcoes": ["Biopolímeros Amazônicos", "Concreto Líquido", "Fibra de Vidro", "Plástico Petroquímico"],
+      "resposta": 0
+    },
+    {
+      "id": 5,
+      "tema": "Games",
+      "pergunta": "Qual jogo indie brasileiro recente se passa nas profundezas da mitologia e floresta amazônica?",
+      "opcoes": ["Toren", "Aritana e as Penas da Harpia", "Dandara", "Enigma do Medo"],
+      "resposta": 1
+    }
+  ],
+  "nordeste": [
+    {
+      "id": 1,
+      "tema": "Debugar Código (HTML)",
+      "tipo": "codigo",
+      "pergunta": "O bloco HTML abaixo tenta exibir uma imagem de uma praia, mas a tag está mal formatada e precisa da tag correta. Qual é a tag principal?\n<ing href='praia.jpg'>",
+      "respostaEsperada": "img",
+      "dica": "A tag de imagem em HTML."
+    },
+    {
+      "id": 2,
+      "tema": "Debugar Código (Operadores JS)",
+      "tipo": "codigo",
+      "pergunta": "No código abaixo, queremos verificar se o turista tem idade maior OU igual a 18 anos:\nif (idade > 18) { ... }\nQual operador lógico ou de comparação falta para aceitar quem tem exatamente 18?",
+      "respostaEsperada": ">=",
+      "dica": "Use o operador de 'maior ou igual'."
+    },
+    {
+      "id": 3,
+      "tema": "Curiosidades Tecnológicas",
+      "pergunta": "Qual parque tecnológico localizado em Pernambuco é um dos maiores polos de software e inovação do país?",
+      "opcoes": ["Porto Digital", "Campinas Tech", "San Pedro Valley", "Tecnopuc"],
+      "resposta": 0
+    },
+    {
+      "id": 4,
+      "tema": "Criações ou Efeitos",
+      "pergunta": "O uso de energia solar fotovoltaica tem crescido exponencialmente em qual região líder em geração distribuída?",
+      "opcoes": ["Nordeste", "Centro-Oeste", "Sul", "Norte"],
+      "resposta": 0
+    },
+    {
+      "id": 5,
+      "tema": "Games",
+      "pergunta": "Qual jogo de plataforma aclamado mundialmente foi desenvolvido pelo estúdio Long Hat House, localizado em Maceió?",
+      "opcoes": ["Dandara", "Knights of Pen & Paper", "Horizon Chase", "Trapped Dead"],
+      "resposta": 0
+    }
+  ],
+  "centro-oeste": [
+    {
+      "id": 1,
+      "tema": "Debugar Código (HTML)",
+      "tipo": "codigo",
+      "pergunta": "No HTML abaixo, qual tag é utilizada para criar um título principal (heading de nível 1)?\n<h>Cerrado Tech</h>",
+      "respostaEsperada": "h1",
+      "dica": "Digite a tag de título principal."
+    },
+    {
+      "id": 2,
+      "tema": "Debugar Código (Operadores JS)",
+      "tipo": "codigo",
+      "pergunta": "Como escrever um operador lógico E (AND) em JavaScript para checar se choveu E se a temperatura está quente?",
+      "respostaEsperada": "&&",
+      "dica": "Use os dois ecompersands."
+    },
+    {
+      "id": 3,
+      "tema": "Curiosidades Tecnológicas",
+      "pergunta": "Brasília abriga data centers e redes de fibra óptica estratégicas para a RNP. O que significa RNP?",
+      "opcoes": ["Rede Nacional de Ensino e Pesquisa", "Rede Nova Paulista", "Registro Nacional de Programadores", "Rede Neural de Processamento"],
+      "resposta": 0
+    },
+    {
+      "id": 4,
+      "tema": "Criações ou Efeitos",
+      "pergunta": "Na agricultura de precisão, muito forte no Centro-Oeste, qual tecnologia autônoma é usada para mapear lavouras?",
+      "opcoes": ["Drones agrícolas com sensores multiespectrais", "Radiação Gama", "Sonar submarino", "Impressora 3D de solo"],
+      "resposta": 0
+    },
+    {
+      "id": 5,
+      "tema": "Games",
+      "pergunta": "Qual engine de desenvolvimento de jogos tem sido muito utilizada por desenvolvedores indie da região?",
+      "opcoes": ["Unity / Unreal Engine", "Somente Excel", "Blocos de Notas", "Flash Player"],
+      "resposta": 0
+    }
+  ],
+  "sudeste": [
+    {
+      "id": 1,
+      "tema": "Debugar Código (HTML)",
+      "tipo": "codigo",
+      "pergunta": "Qual tag HTML estrutural é utilizada para criar uma quebra de linha simples no texto?",
+      "respostaEsperada": "br",
+      "dica": "Digite apenas as letras da tag de quebra de linha."
+    },
+    {
+      "id": 2,
+      "tema": "Debugar Código (Operadores JS)",
+      "tipo": "codigo",
+      "pergunta": "Em React, qual hook básico utilizamos para gerenciar estado em componentes funcionais?",
+      "respostaEsperada": "useState",
+      "dica": "Digite o nome do hook do React para gerenciar estado."
+    },
+    {
+      "id": 3,
+      "tema": "Curiosidades Tecnológicas",
+      "pergunta": "Qual acelerador de partículas de luz síncrotron de última geração (único na América Latina) fica em Campinas (SP)?",
+      "opcoes": ["Sirius", "LHC", "Tokamak", "Ciclofaixa"],
+      "resposta": 0
+    },
+    {
+      "id": 4,
+      "tema": "Criações ou Efeitos",
+      "pergunta": "Na computação gráfica e efeitos visuais (VFX), estúdios usam renderização em nuvem via qual tecnologia?",
+      "opcoes": ["Render Farm distribuída", "Disquete de alta densidade", "Cartão perfurado", "Cabo coaxial"],
+      "resposta": 0
+    },
+    {
+      "id": 5,
+      "tema": "Games",
+      "pergunta": "Qual grande franquia de corrida arcade de sucesso global teve forte ligação com desenvolvedores brasileiros (como a antiga Aquiris)?",
+      "opcoes": ["Horizon Chase", "Need for Speed", "Gran Turismo", "Mario Kart"],
+      "resposta": 0
+    }
+  ],
+  "sul": [
+    {
+      "id": 1,
+      "tema": "Debugar Código (HTML)",
+      "tipo": "codigo",
+      "pergunta": "Qual tag HTML é utilizada para inserir um elemento de lista não ordenada (bullet points)?",
+      "opcoes": ["ul", "ol", "li", "list"],
+      "respostaEsperada": "ul",
+      "dica": "Digite a tag de lista não ordenada."
+    },
+    {
+      "id": 2,
+      "tema": "Debugar Código (Operadores JS)",
+      "tipo": "codigo",
+      "pergunta": "No desenvolvimento em C# / .NET, qual operador matemático usamos para realizar o incremento de mais um em uma variável (ex: x++)?",
+      "respostaEsperada": "++",
+      "dica": "Use o operador de incremento duplo."
+    },
+    {
+      "id": 3,
+      "tema": "Curiosidades Tecnológicas",
+      "pergunta": "Curitiba é mundialmente reconhecida por seu transporte pioneiro e investimento em qual conceito urbano?",
+      "opcoes": ["Cidades Inteligentes (Smart Cities) e BRT", "Teletransporte", "Carros voadores", "Ruas de vidro"],
+      "resposta": 0
+    },
+    {
+      "id": 4,
+      "tema": "Criações ou Efeitos",
+      "pergunta": "No desenvolvimento de software corporativo no Sul, qual stack baseada em Microsoft (.NET) é amplamente utilizada?",
+      "opcoes": ["ASP.NET Core / C#", "COBOL", "Pascal", "Fortran"],
+      "resposta": 0
+    },
+    {
+      "id": 5,
+      "tema": "Games",
+      "pergunta": "Qual estúdio brasileiro pioneiro com grande base no Sul desenvolveu Horizon Chase?",
+      "opcoes": ["Aquiris Game Studio", "Wildlife Studios", "Nintendo Brasil", "Sony Santa Monica"],
+      "resposta": 0
+    }
+  ]
+}

@@ -33,7 +33,7 @@ export default function TelaFinal({ grupoNome, pontos, erros, tempoTotal, onRein
       </div>
 
       <p className="text-xs text-slate-500">
-        Salve ou tire um print desta tela para comparar sua pontuação e tempo com os outros grupos!
+       SEGUE O RELATÓRO DA RODADA
       </p>
 
       <button 

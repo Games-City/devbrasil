@@ -154,7 +154,7 @@ export default function App() {
             onClick={iniciarJogoSetup}
             className="w-full py-4 bg-gradient-to-r from-emerald-500 to-cyan-600 font-bold text-lg rounded-xl shadow-lg hover:opacity-90 transition cursor-pointer"
           >
-            Avançar para História
+            Avançar para Missão
           </button>
         </div>
       )}

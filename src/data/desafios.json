@@ -4,7 +4,7 @@
       "id": 1,
       "tema": "Debugar Código (HTML)",
       "tipo": "codigo",
-      "pergunta": "Encontre o erro no código HTML abaixo. O link para o site de turismo não está funcionando corretamente. Qual tag ou atributo está faltando ou incorreto?\n<a href='turismo-norte.html'>Visitar o Norte</a>",
+      "pergunta": "Encontre o erro no código HTML abaixo. O link para o site de turismo não está funcionando corretamente. Qual tag ou atributo está faltando ou incorreto?\n<a ref='turismo-norte.html'>Visitar o Norte</a>",
       "respostaEsperada": "href",
       "dica": "Verifique se a propriedade de link está escrita corretamente."
     },
@@ -44,8 +44,8 @@
       "tema": "Debugar Código (HTML)",
       "tipo": "codigo",
       "pergunta": "O bloco HTML abaixo tenta exibir uma imagem de uma praia, mas a tag está mal formatada e precisa da tag correta. Qual é a tag principal?\n<ing href='praia.jpg'>",
-      "respostaEsperada": "img",
-      "dica": "A tag de imagem em HTML."
+      "respostaEsperada": "<img src='praia.jpg'>",
+      "dica": "A tag de imagem e caminho em HTML ."
     },
     {
       "id": 2,
@@ -169,7 +169,7 @@
       "id": 2,
       "tema": "Debugar Código (Operadores JS)",
       "tipo": "codigo",
-      "pergunta": "No desenvolvimento em C# / .NET, qual operador matemático usamos para realizar o incremento de mais um em uma variável (ex: x++)?",
+      "pergunta": "No desenvolvimento em C# / .NET, qual operador matemático usamos para realizar o incremento de mais um em uma variável?",
       "respostaEsperada": "++",
       "dica": "Use o operador de incremento duplo."
     },

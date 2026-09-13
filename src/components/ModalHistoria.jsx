@@ -59,7 +59,7 @@ export default function ModalHistoria({ onIniciar }) {
 
   return (
     <div className="fixed inset-0 bg-black/85 backdrop-blur-md flex items-center justify-center p-4 z-50">
-      <audio ref={audioRef} loop src="https://actions.google.com/sounds/v1/ambiences/sci_fi_bridge.ogg" />
+      <audio ref={audioRef} loop src="/src/music/musica.mp3" />
       
       <div className="bg-slate-900 border border-emerald-500/50 p-8 rounded-2xl max-w-lg w-full text-center space-y-6 shadow-[0_0_30px_rgba(16,185,129,0.2)] animate-fade-in font-mono">
         <div className="text-emerald-400 text-3xl uppercase tracking-widest animate-pulse">[ MISSÃO ]</div>
